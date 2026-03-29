@@ -1,0 +1,32 @@
+name: alfawz
+# Après clonage : exécuter `flutter create .` dans ce dossier pour générer android/, ios/, etc.
+description: Alfawz — lecture du Coran (Digital Sanctuary)
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.0.2
+  http: ^1.2.2
+  just_audio: ^0.10.5
+  path_provider: ^2.1.5
+  share_plus: ^10.1.4
+  shared_preferences: ^2.3.3
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: UthmanicHafs
+      fonts:
+        - asset: assets/fonts/UthmanicHafs1Ver18.ttf
